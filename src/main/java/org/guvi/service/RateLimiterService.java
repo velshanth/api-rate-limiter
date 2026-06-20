@@ -12,7 +12,7 @@ public class RateLimiterService {
     private final Map<String, RateLimitBucket> buckets =
             new ConcurrentHashMap<>();
 
-    private static final int CAPACITY = 10;
+    private static final int CAPACITY = 20;
 
     private static final long REFILL_INTERVAL = 60000;
 
