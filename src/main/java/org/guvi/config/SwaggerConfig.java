@@ -23,7 +23,7 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("Mini API Gateway")
                         .version("1.0")
-                        .description("API Gateway with 10 requests per minute")
+                        .description("API Gateway with 20 requests per minute")
                         .contact(new Contact()
                                 .name("Guvi")
                                 .email("support@guvi.in")))
